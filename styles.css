@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  background-color: rgb(26, 26, 23);
+}
+
+.grid-item {
+  border: 1px solid white;
+  margin: 3px;
+  height: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-item {
+  color: black;
+  width: 100px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  font-size: 120%;
+}
